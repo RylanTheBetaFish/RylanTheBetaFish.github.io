@@ -1,0 +1,161 @@
+/* reset m/p/bb and establish variables */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --glowdim: calc(33vw);
+    --logowidth: 
+}
+
+.button{
+    background: transparent;
+    border: none;
+    border-radius: 50%;
+}
+
+h1{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h2{
+    font-family: 'Courgette', cursive;
+}
+
+body{
+    background: #0b1728;
+    overflow: hidden;
+}
+
+.hero{
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-start;
+}
+
+.stickylogo{
+    position: sticky;
+    z-index: 3;
+}
+
+.logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    background-image: url(../img/logo-colored.png);
+    background-size: contain;
+    background-position: 25px;
+    background-repeat: no-repeat;
+    width: 1050px;
+    height: 100px;
+    clip-path: circle(50.0% at 0% -75%);
+    z-index: 4;
+}
+
+.logospacer{
+    position: absolute;
+    top: 43px;
+    left: 0;
+    background: #fff;
+    clip-path: circle(75.0% at 50% 0);
+    width: 115px;
+    height: 100px;
+    z-index: 3;
+}
+
+.hero svg{
+    z-index: 2;
+}
+
+#cursor{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    height: var(--glowdim);
+    width: var(--glowdim);
+    background: rgba(170, 121, 199, 1);
+    filter: blur(50px);
+    z-index: 1;
+}
+
+.container{
+    position: absolute;
+    left: 66%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    z-index: 4;
+}
+
+.container .card{
+    position: relative;
+    width: 25vw;
+    height: 55vh;
+    margin: 30px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+}
+
+.container .card .content{
+    padding: 20px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.container .card .content h1{
+    font-size: 3vw;
+}
+
+.container .card .content h2 {
+    font-size: 2vw;
+}
+
+.btn1{
+    position: absolute;
+    top: 25vh;
+    left: 33vw;
+    z-index: 4;
+}
+
+.fbicon{
+    margin: 0;
+    padding: 0;
+    background: rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    border-radius: 50%;
+}
+
+.btn2{
+    position: absolute;
+    top: 55vh;
+    left: 33vw;
+    z-index: 4;
+}
+
+.liicon{
+    margin: 0;
+    padding: 0;
+    background: rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    border-radius: 50%;
+}

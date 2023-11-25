@@ -1,0 +1,57 @@
+/* define variables */
+:root {
+    --backgrad-1: #bcd870;
+    --backgrad-2: #6b9e1d;
+    --textcolor: #26400a;
+    --bodyfont: 'Lato', sans-serif;
+    --headingfont: 'Playfair Display', serif;
+}
+
+.darkmode {
+    --backgrad-1: #3b2f66;
+    --backgrad-2: #24152b;
+    --textcolor: #f0edfb;
+    --bodyfont: 'Lato', sans-serif;
+    --headingfont: 'Playfair Display', serif;
+}
+
+body {
+    margin: 0;
+}
+
+.hero {
+    background: linear-gradient(150deg, var(--backgrad-1), var(--backgrad-2));
+    height: 100vh;
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.hero button {
+    background: none;
+    border: none;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    cursor: pointer;
+    border-radius: 50%;
+    position: relative;
+    top: 0;
+    left: 50vw;
+}
+
+.hero h1 {
+    color: var(--textcolor);
+    font-family: var(--headingfont);
+    font-size: 4rem;
+    margin: 0 0 0 20px;
+}
+
+.hero p {
+    color: var(--textcolor);
+    font-family: var(--bodyfont);
+    font-size: 2rem;
+    margin: 0 0 0 40px;
+}

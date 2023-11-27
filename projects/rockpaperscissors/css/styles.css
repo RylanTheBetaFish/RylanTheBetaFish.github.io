@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(25deg, #998888, #BFB8AD, #EADEDA);
+  background-repeat: no-repeat;
+}
+
+header {
+  display: flex;
+}
+header .title {
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px 10px 10px;
+  margin: 10px;
+  border: 5px solid #823329;
+  border-radius: 10px;
+  background: linear-gradient(25deg, #BFB8AD, #998888);
+}
+header .title h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 8rem;
+  margin: 0;
+  line-height: 6rem;
+  color: #823329;
+}
+header .score .winsscore {
+  display: flex;
+}
+header .score .winsscore p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  margin: 0 9px 0 0;
+  color: #823329;
+}
+header .score .tiesscore {
+  display: flex;
+}
+header .score .tiesscore p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  margin: 0 9px 0 0;
+  color: #823329;
+}
+header .score .lossesscore {
+  display: flex;
+}
+header .score .lossesscore p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  margin: 0 9px 0 0;
+  color: #823329;
+}
+
+.game {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 40vh;
+}
+.game div {
+  background: #BFB8AD;
+  height: 7rem;
+  width: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 5px solid #823329;
+}
+.game div a {
+  font-size: 5rem;
+  color: #823329;
+  padding: 5px;
+}/*# sourceMappingURL=styles.css.map */

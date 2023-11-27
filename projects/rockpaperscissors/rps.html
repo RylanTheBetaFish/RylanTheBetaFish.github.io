@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Beta Fish</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- favicon -->
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../../favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../favicon/favicon-16x16.png">
+    <link rel="manifest" href="../../favicon/site.webmanifest">
+    <link rel="mask-icon" href="../../favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="../../favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#5b7885">
+    <meta name="msapplication-config" content="/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#5b7885">
+</head>
+<body>
+    <header>
+        <div class="title">
+            <h1>Rock</h1>
+            <h1>Paper</h1>
+            <h1>Scissors</h1>
+        </div>
+        <div class="score">
+            <div class="winsscore"><p>wins:</p><p id="wins">0</p></div>
+            <div class="tiesscore"><p>ties:</p><p id="ties">0</p></div>
+            <div class="lossesscore"><p>losses:</p><p id="losses">0</p></div>
+        </div>
+    </header>
+    <div class="game">
+        <div class="rock">
+            <a href="#" onclick="rock()"><i class="fa-solid fa-hand-fist"></i></a>
+        </div>
+        <div class="paper">
+            <a href="#" onclick="paper()"><i class="fa-solid fa-hand"></i></a>
+        </div>
+        <div class="scissors">
+            <a href="#" onclick="scissors()"><i class="fa-solid fa-hand-scissors"></i></a>
+        </div>
+    </div>
+    <!-- JavaScript -->
+    <script src="https://kit.fontawesome.com/c7ecbf111d.js" crossorigin="anonymous"></script>
+    <script src="./js/scripts.js"></script>
+</body>
+</html>

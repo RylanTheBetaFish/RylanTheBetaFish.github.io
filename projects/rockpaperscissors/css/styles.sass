@@ -1,0 +1,79 @@
+$clr-light: #EADEDA
+$clr-med: #BFB8AD
+$clr-dark: #998888
+$clr-accent: #823329
+
+body
+    margin: 0
+    padding: 0
+    width: 100%
+    height: 100vh
+    background: linear-gradient(25deg, $clr-dark, $clr-med, $clr-light)
+    background-repeat: no-repeat
+
+header
+    display: flex
+
+    .title
+        width: fit-content
+        display: flex
+        flex-direction: column
+        padding: 20px 10px 10px 10px
+        margin: 10px
+        border: 5px solid $clr-accent
+        border-radius: 10px
+        background: linear-gradient(25deg, $clr-med, $clr-dark)
+
+        h1
+            font-family: 'Bebas Neue', sans-serif
+            font-size: 8rem
+            margin: 0
+            line-height: 6rem
+            color: $clr-accent
+    .score
+        .winsscore
+            display: flex
+            
+            p
+                font-family: 'Montserrat', sans-serif
+                font-size: 3rem
+                margin: 0 9px 0 0
+                color: $clr-accent
+
+        .tiesscore
+            display: flex
+            
+            p
+                font-family: 'Montserrat', sans-serif
+                font-size: 3rem
+                margin: 0 9px 0 0
+                color: $clr-accent
+
+        .lossesscore
+            display: flex
+            
+            p
+                font-family: 'Montserrat', sans-serif
+                font-size: 3rem
+                margin: 0 9px 0 0
+                color: $clr-accent
+.game
+    display: flex
+    justify-content: space-around
+    align-items: center
+    height: 40vh
+
+    div 
+        background: $clr-med
+        height: 7rem
+        width: 7rem
+        display: flex
+        justify-content: center
+        align-items: center
+        border-radius: 50%
+        border: 5px solid $clr-accent
+
+        a
+            font-size: 5rem
+            color: $clr-accent
+            padding: 5px

@@ -28,7 +28,7 @@ function isLetter(letter) {
 
 // verify that words are valid
 async function isValidWord(wordToEvaluate) {
-    let promise = await fetch("https://words.dev-apis.com/validate-word", {
+    let promise = await fetch("https://words.dev-apis.com/validate-word?random=1", {
         method: "POST",
         body: JSON.stringify({ "word": wordToEvaluate })
     });

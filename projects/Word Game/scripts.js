@@ -18,6 +18,7 @@ window.onload = async function findWOTD() {
     correctAnswer = correctAnswer.toUpperCase();
     correctLetters = correctAnswer.split("");
     document.querySelector(".lossscreenword").innerText = correctAnswer;
+    return true
 };
 
 // verify letters

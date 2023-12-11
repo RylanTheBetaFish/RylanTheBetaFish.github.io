@@ -1,0 +1,111 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #333
+}
+
+header {
+    height: fit-content;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-family: 'Abril Fatface', serif;
+    font-size: 3rem;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.letterContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 3px;
+    padding: 6px;
+    background: #333;
+    border-radius: 15px;
+}
+
+.letter {
+    height: 12vh;
+    aspect-ratio: 1;
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10vh;
+    transition: 0.25s;
+    border: 2px solid transparent;
+}
+
+.correct {
+    background: darkgreen;
+    color: #fff;
+}
+
+.close {
+    background: goldenrod;
+}
+
+.wrong {
+    background: slategray;
+}
+
+.winscreen {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(0, 100, 0, .50);
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    border-top: 2px solid #ffffff20;
+    border-left: 2px solid #ffffff20;
+    border-right: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    box-shadow: 0 5px 5px #33333350;
+    width: 15rem;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .25s;
+}
+
+.lossscreen {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(139, 0, 0, .50);
+    color: #fff;
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    border-top: 2px solid #ffffff20;
+    border-left: 2px solid #ffffff20;
+    border-right: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    box-shadow: 0 5px 5px #33333350;
+    width: 15rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .25s;
+}
+
+.hidden {
+    display: none
+}

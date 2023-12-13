@@ -12,7 +12,7 @@ let correctLetters = [];
 
 // update correctAnswer and correctletters
 window.onload = async function findWOTD() {
-    let promise = await fetch("https://words.dev-apis.com/word-of-the-day");
+    let promise = await fetch("https://words.dev-apis.com/word-of-the-day?random=1");
     let response = await promise.json();
     correctAnswer = response.word;
     correctAnswer = correctAnswer.toUpperCase();

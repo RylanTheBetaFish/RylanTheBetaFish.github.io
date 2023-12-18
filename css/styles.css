@@ -539,7 +539,7 @@ nav {
 }
 
 #calculator .image {
-  background: url("../img/calculator.jpg");
+  background: url("../img/calculator.png");
   background-size: 21vw;
   background-position: center;
   width: 20vw;
@@ -547,7 +547,7 @@ nav {
 }
 
 #rockPaperScissors .image {
-  background: var(--clrBlack) url("../img/rockPaperScissors.jpg");
+  background: var(--clrBlack) url("../img/rockPaperScissors.png");
   background-size: 40vw;
   background-position: center;
   background-repeat: no-repeat;
@@ -556,7 +556,7 @@ nav {
 }
 
 #wordGame .image {
-  background: url("../img/wordGame.jpg");
+  background: url("../img/wordGame.png");
   background-size: 22vw;
   background-position: center;
   width: 20vw;

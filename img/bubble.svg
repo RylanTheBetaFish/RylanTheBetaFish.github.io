@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="5"
+   height="5"
+   viewBox="0 0 84.222359 84.222352"
+   version="1.1"
+   id="svg5"
+   inkscape:export-filename="bubble.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.9855336"
+     inkscape:cx="136.23542"
+     inkscape:cy="157.38842"
+     inkscape:window-width="1920"
+     inkscape:window-height="986"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-19.512552,-63.233365)">
+    <circle
+       style="fill:none;fill-opacity:0.992157;stroke:#f4edea;stroke-width:3.565;stroke-dasharray:none;stroke-opacity:1"
+       id="path234"
+       cx="61.62373"
+       cy="105.34454"
+       r="40.328678" />
+    <path
+       style="fill:none;fill-opacity:0.992157;stroke:#f4edea;stroke-width:3.565;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       d="M 34.675127,92.718272 C 36.919783,87.650044 44.920648,80.415623 49.751269,79.149746"
+       id="path952"
+       sodipodi:nodetypes="cc" />
+    <circle
+       style="fill:none;fill-opacity:0.992157;stroke:#f4edea;stroke-width:3.565;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       id="path1102"
+       cx="58.608501"
+       cy="78.497955"
+       r="1.1307106" />
+  </g>
+</svg>

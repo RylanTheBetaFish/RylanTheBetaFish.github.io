@@ -605,6 +605,13 @@ nav {
     position: absolute;
     top: 0;
     transform: translateY(40%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav .links {
+    display: none;
   }
 
   .disclaimer {
@@ -620,5 +627,11 @@ nav {
     padding: 3rem;
     font-weight: bold;
     font-family: 'Montserrat', serif;
+  }
+}
+
+@media screen and (min-height: 45rem) {
+  #hero, #hero>* {
+    height: 100vh;
   }
 }
